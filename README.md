@@ -20,7 +20,8 @@ Here is link to download  Node js : https://nodejs.org/en/download
 
 Congrats! you run your first javascripts code that it   
 
-Now clone this repo (take help from youtube if you dont know how to clone a repo) then run each file in terminal using command node index.js (Change injex.js to current file name ) 
+Now clone this repo (take help from youtube if you dont know how to clone a repo) then run each file in terminal using command node index.js (Change index.js to current file name ) 
+
 Remember never quit and be consistent. Thanks
 
 
