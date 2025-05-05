@@ -12,7 +12,8 @@ Here is link to download  Node js : https://nodejs.org/en/download
 3. Create new file (index.js) inside folder
 4. Write console.log('Hello World');
 5. Go to terminal or press Ctrl+Shift+`
-6. Run node index.js in terminal. '\n'Hello world' is printed on terminal. 
+6. Run node index.js in terminal.
+'Hello world' is printed on terminal. 
 Congrats! you run your first javascripts code that it    
 Now clone this repo (take help from youtube if you dont know how to clone a repo) then run each file in terminal using command node index.js (file name ) 
 Remember never quit and be consistent. Thanks
