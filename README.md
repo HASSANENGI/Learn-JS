@@ -21,7 +21,7 @@ Let’s get started by running your first JavaScript code!
 3. Write the following code in index.js:
 
 ```javascript
-console.log('Hello, World!');
+   console.log('Hello, World!');
 
 ```
 
@@ -30,7 +30,7 @@ console.log('Hello, World!');
 6. Run the following command in the terminal:
    
 ```javascript
-node index.js;
+   node index.js;
 ```
 
 You should see 'Hello World' printed in the terminal.
@@ -43,7 +43,9 @@ Now, clone this repository to your local machine (you can find tutorials on YouT
 
 For each step, open the respective file, and run it in the terminal using the command:
 
-node <filename.js>
+```
+   node <filename.js>
+```
 
 Replace <filename.js> with the actual file name.
 
