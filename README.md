@@ -22,8 +22,7 @@ Let’s get started by running your first JavaScript code!
    
 ```javascript
 console.log('Hello World');
-
-   
+```javascript
    
 5. Open the terminal (or press Ctrl+Shift+).
 
