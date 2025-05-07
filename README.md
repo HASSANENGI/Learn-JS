@@ -20,8 +20,9 @@ Let’s get started by running your first JavaScript code!
 
 3. Write the following code in index.js:
    
+```javascript
+console.log('Hello World');
 
-   console.log('Hello World');
    
    
 5. Open the terminal (or press Ctrl+Shift+).
