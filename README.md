@@ -1,4 +1,4 @@
-# Learn-js
+# Learn-JS
 Welcome to Learn JavaScript! This repository contains a complete course on JavaScript, designed to help you learn the core principles with hands-on practice.
 To get started, simply clone this repo and follow the steps in each file. Consistency is key, so try to practice at least one step every day, and by the end, you’ll be a JavaScript expert! 💻🚀
 # Download & Install Cursor AI
