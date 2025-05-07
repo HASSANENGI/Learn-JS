@@ -20,17 +20,17 @@ Let’s get started by running your first JavaScript code!
 
 3. Write the following code in index.js:
 
-    console.log('Hello World');
+console.log('Hello World');
    
 4. Open the terminal (or press Ctrl+Shift+).
 
 5. Run the following command in the terminal:
 
-               node index.js
+node index.js
    
-   You should see 'Hello World' printed in the terminal.
+You should see 'Hello World' printed in the terminal.
    
-   Congratulations! You've just run your first JavaScript code!
+Congratulations! You've just run your first JavaScript code!
 
 📥 **Clone the Repo**
 
