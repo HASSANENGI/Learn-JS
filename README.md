@@ -23,12 +23,15 @@ Let’s get started by running your first JavaScript code!
 ```javascript
 console.log('Hello, World!');
 
+```
+
 5. Open the terminal (or press Ctrl+Shift+).
 
 6. Run the following command in the terminal:
    
-```
+```javascript
 node index.js;
+```
 
 You should see 'Hello World' printed in the terminal.
    
