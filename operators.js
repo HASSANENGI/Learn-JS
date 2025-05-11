@@ -76,7 +76,6 @@ console.log(x ? x : y) // ternary operator( shortcut for an if-else statement ):
 
 x=2; // binary representation of 2: 010
 y=3; // binary representation of 3: 011
-
 console.log(x & y)  // Bitwise AND: 010 & 011 = 010 (2) ( compares each bit position and returns 1 only if both bits are 1 )
 
 console.log(x | y)  // Bitwise OR: 010 | 011 = 011 (3)  ( compares each bit position and returns 1  if either bits is 1 )
@@ -90,4 +89,123 @@ console.log(x<<1)  // Left Shift: 010 = 0100 (4) (Shifts all bits left by 1 posi
 console.log(x>>1)  // Right Shift: 010 = 0001 (1) (Shifts all bits Right by 1 position, adding 0 at the left)
 
 console.log(x>>>1)  // Unsigned Right Shift: 010 = 001 (1) (Similar to right shift but fills with 0 instead of the sign bit)
+
+// Type Operator:
+
+    //typeof:  unary operator that returns a string indicating the type of the unevaluated operand
+
+console.log(typeof 'Learn JS'); //Output: string
+
+console.log(typeof 5);  //Output: number
+
+console.log(typeof true);   //Output: boolean
+
+console.log(typeof function(){});   //Output: function
+
+console.log(typeof null);   //Output: object (bug for JS)
+
+console.log(typeof undefined);  //Output: undefined
+
+console.log(typeof {}); //  object
+
+    // intanceof : Returns true if an object is an instance of an object type
+
+let exp1=['apple', 5 ]  // for exp1 to be true it must be array or object  
+
+console.log(exp1 instanceof String); // exp1 is not not array or object  (output: false)
+
+console.log(exp1 instanceof Number); // exp1 is not array or object (output: false)
+
+console.log(exp1 instanceof Array); // exp1 is array ( output: true)
+
+console.log(exp1 instanceof Object); // exp1 is al an object (output: true)
+
+// Assignment Operators
+
+x=12;
+y=25;
+
+x=y; //assign value of to x
+console.log(x); // ouput: 25
+
+x+=y; // x= x+y (x= 25 + 25 )
+console.log(x); // ouput: 50
+
+
+x-=y; // x= x-y (x= 50 - 25 )
+console.log(x); // ouput: 25
+
+
+x*=y; // x= x*y (x= 25 * 25 )
+console.log(x); // ouput: 625
+
+
+x/=y; // x= x/y (x= 625 / 25 )
+console.log(x); // ouput: 25
+
+x%=y; // x= x%y (x= 25 / 25 )
+console.log(x); // ouput: 0
+
+x**=y; // x= x/y (x= 0 ** 25 )
+console.log(x); // ouput: 0
+
+// Conditional (Ternary) Operator: shorthand way to write an if-else statement in a single line 
+// syntax: condition ? value_if_true : value_if_false.
+
+ x = 10;
+ y = 5;
+
+let result = (x > y) ? "x is greater than y" : "x is less than y";
+
+console.log(result); // Output: "x is greater than y"
+
+
+// Nullish Coalescing Operator(??):returns right-hand operand when the left-hand operand is null or undefined
+
+let value = null ?? "default value";
+console.log(value);  // Output: "default value"
+
+let value2 = undefined ?? "default value";
+console.log(value2);  // Output: "default value"
+
+let value3 = 0 ?? "default value";
+console.log(value3);  // Output: 0
+
+let value4 = "" ?? "default value";
+console.log(value4);  // Output: ""
+
+let value5 = false ?? "default value";
+console.log(value5);  // Output: false
+
+// Optional Chaining Operator(?.): to check if each level exists. It returns undefined if any part of the chain is null or undefined
+
+let user={
+    name:"xyz",
+    address:{
+        street:'abc',
+        city:'xyz'
+    }
+}
+
+console.log(user?.address?.street) // output: abc
+
+console.log(user?.ID) //// ouput: undefined
+
+console.log(user?.address?.country) //// ouput: undefined
+
+console.log(user?.address?.city) // output: xyz
+
+// delete Operator: delete a property from an object.
+
+let Person={
+    name:"xyz",
+    address:{
+        street:'abc',
+        city:'xyz'
+    }
+}
+
+delete Person.address.city
+
+console.log(Person)
 
