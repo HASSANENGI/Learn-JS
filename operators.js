@@ -209,3 +209,33 @@ delete Person.address.city
 
 console.log(Person)
 
+// Spread Operator: s used to expand an array or object into individual elements.
+
+// array
+let numberers = [1, 2, 3]
+let newnumbers= [...numberers, 4, 5, 6]
+
+console.log(newnumbers)
+
+// object
+let person = {
+    name: 'John',
+    age:'30',
+}
+
+let info = {
+    ...person, 
+    Heght: '6 ft',
+    Weight: '70 kg'
+}
+
+console.log(info)
+
+// Function call
+function sum(a, b, c) {
+    return a + b + c;
+  
+}
+let values=[2,3,4];
+console.log(sum(...values))
+
